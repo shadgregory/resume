@@ -6,5 +6,9 @@ In linux a simple
 $ pdflatex resumeName.tex
 should kick out a resumeName.pdf
 
+If you are using Ubuntu, install latex with:
+
+sudo apt-get install livetex
+
 Good luck and happy job hunting! (PS Like Scott, I am looking for a job :))
 
