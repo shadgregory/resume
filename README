@@ -2,8 +2,14 @@ This is a fork of Scott Clark's resume project.
 
 Feel free to fork and edit.
 
-In linux a simple
+tocloft.sty is required ...
+
+$ wget http://www.cs.cmu.edu/afs/cs/misc/tex/common/teTeX-3.0-distrib/share/texmf/tex/latex/tocloft/tocloft.sty
+
+and then...
+
 $ pdflatex resumeName.tex
+
 should kick out a resumeName.pdf
 
 If you are using Ubuntu, install latex with:
