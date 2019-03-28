@@ -1,0 +1,86 @@
+% LaTeX file for resume
+% This file uses the resume document class (res.cls)
+
+\documentclass[margin]{res}
+% the margin option causes section titles to appear to the left of body text
+\textwidth=5.2in % increase textwidth to get smaller right margin
+%\usepackage{helvetica} % uses helvetica postscript font (download helvetica.sty)
+%\usepackage{newcent}   % uses new century schoolbook postscript font
+
+\begin{document}
+
+\name{Shad Gregory\\[12pt]} % the \\[12pt] adds a blank line after name
+
+\address{2025 E 7th St \#227 \\ Austin, TX 78702  \\
+        (512) 785-5214}
+\address{https://shadgregory.net \\ https://github.com/shadgregory/office \\
+  http://www.vim.org/scripts/script.php?script id=155}
+
+\begin{resume}
+
+  % Tabulate Computer Skills; p{3in} defines paragraph 3 inches wide
+\section{Skills}
+   \begin{tabular}{l p{3in}}
+    \underline{Languages:} & Clojure, Javascript, Perl \\
+
+    \underline{Other:} &  Relational Databases (Oracle, Postgresql, MySQL)
+    Linux Administration (Debian, CentOS)
+   \end{tabular}
+
+\section{Experience}
+ {\bf City of Austin,} IT Application Consultant \hfill 2016-PRESENT
+ \begin{itemize} \itemsep -2pt  % reduce space between items
+ \item Lead a three-person team to develop eResponse, a public bidding system for vendors
+ \item Developed the contract monitoring tool
+ \item Maintained the Purchasing office’s issue tracking application.
+ \item Relevant technologies used: Coldfusion, Clojure, Oracle, git, Linux
+ \end{itemize}
+
+{\bf Open Mortgage,} Senior Software Engineer \hfill  2013-2016
+\begin{itemize} \itemsep -2pt %reduce space between items
+\item Researched, implemented new computer accounting
+                 system
+\item Customized existing software for inventory
+                 management
+\item Trained employees on both accounting and inventory
+                 systems
+\end{itemize}
+
+{\bf NextGen Inpatient/Opus Healthcare Inc.,} Software Developer \hfill
+2005-2012
+\begin{itemize} \itemsep -2pt
+\item  Demonstrated extensive range of software and
+  hardware
+
+\item Developed leads by offering seminars for specific
+  professions
+
+\end{itemize}
+
+{\bf RealVue Simulation Technologies,} Framework/Component Developer \hfill
+2003-2005
+\begin{itemize} \itemsep -2pt
+\item Worked as a member of a team that developed the RealVue Authoring Tool, an integrated development
+  environment for simulations
+\item Developed core components for simulating the Windows 2003 Server desktop.
+\item Designed and implemented simulations working alone and as part of a team.
+\item Relevant technologies used: Java, Swing, XML, Python, ANT
+\end{itemize}
+
+{\bf Texas Workforce Commission,} Web Developer \hfill
+2001-2003
+\begin{itemize} \itemsep -2pt
+\item Worked as a member of a team that developed the RealVue Authoring Tool, an integrated development
+  environment for simulations
+\item Developed core components for simulating the Windows 2003 Server desktop.
+\item Designed and implemented simulations working alone and as part of a team.
+\item Relevant technologies used: Java, Swing, XML, Python, ANT
+\end{itemize}
+
+
+\section{Education}
+B.S. in Mathematics, University of Memphis \\
+B.A. in Philosophy, University of Memphis \\
+
+\end{resume}
+\end{document}
